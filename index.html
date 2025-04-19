@@ -9,24 +9,27 @@
 <body>
     <header>
         <nav class="navbar">
-            <div class="logo">Ornato</div>
-            <input type="text" id="search" placeholder="Buscar productos...">
+             <div class="buscador">
+                <img src="imagenes/buscador.png" alt="" class="img-buscador">
+                <input type="text" id="search" value="">
+            </div>
+            <h1>Ornato</h1>
             <button class="menu-btn">☰</button>
         </nav>
         <div id="menu" class="menu">
             <button class="close-menu">&times;</button>
 
             <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="productos.html">Productos</a></li>
-                <li><a href="#">Sobre Nosotros</a></li>
-                <li><a href="#">Cómo comprar</a></li>
+                <li><img src="imagenes/inicio.png"alt=""><a href="index.html"> -Inicio</a></li>
+                <li><img src="imagenes/productos.png" alt=""><a href="productos.html"> -Productos</a></li>
+                <li><img src="imagenes/nosotros.png" alt=""><a href="#"> -Sobre Nosotros</a></li>
+                <li><img src="imagenes/comprar.png" alt=""><a href="#"> -Cómo comprar</a></li>
             </ul>
         </div>
-        <div class="carousel">
+        <!--<div class="carousel">
             <img src="imagenes/fotoprincipal.png" class="slide active">
             <img src="imagenes/combo.png" class="slide">
-        </div>
+        </div>-->
     </header>   
     <main>
         <section class="productos-inicio">
@@ -34,7 +37,7 @@
                 <div>
                     <img src="imagenes/bombilla2.png" alt="Producto 1">
                 </div>
-                <div>
+                <div class="info-inicio">
                     <h3>Bombiila</h3>
                     <h4>$2000</h4>
                     <button class="ver-mas" data-target="#seccion-producto1">Ver más</button>
@@ -44,7 +47,7 @@
                 <div>
                     <img src="imagenes/gorra.png" alt="Producto 2">
                 </div>
-                <div>
+                <div class="info-inicio">
                     <h3>Gorra</h3>
                     <h4>$2000</h4>
                     <button class="ver-mas" data-target="#seccion-producto2">Ver más
@@ -55,7 +58,7 @@
             </div>
             <div class="muestra">
                 <div> <img src="imagenes/mate1.png" alt="Producto 3"></div>
-                <div>
+                <div class="info-inicio">
                     <h3>Mate</h3>
                     <h4>$3000</h4>
                     <button class="ver-mas" data-target="#seccion-producto3">Ver más</button>
@@ -66,12 +69,13 @@
     <footer>
         <div class="contenedor-footer">
             <div class="mensaje">
-                <div><p class="titulo">Pasion, Tradicion y Patria</p></div>
-             <div><center><p>En Ornato hacemos que compartir mate sea un momento sin importar donde estes  </p></center></div>
+                <div><p class="titulo">Ornato significa</p></div>
+             <div><center><p>"aquello que embellece". desde el arte y el amor emprendemos la venta de mates y decoraciones. <br> somos Angel y Ayelen
+             </p></center></div>
             </div>
             <div class="redes-sociales">
-                <img src="" alt="">
-                <img src="" alt="">
+                <img src="imagenes/instagram.png" alt=""><a href="">Ornato.decoraciones</a>
+                <img src="imagenes/whatsapp.png" alt=""><a href="">1122334432</a>
             </div>
         </div>
     </footer>
