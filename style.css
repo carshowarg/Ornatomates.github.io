@@ -17,6 +17,8 @@ body {
 }
 
 /* Barra de navegación */
+
+
 .navbar {
     display: flex;
     width: 100%;
@@ -64,6 +66,22 @@ h1{
 h2{
     text-align: center;
 }
+
+.ver-productos{
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    background: #a9a9a9fc;
+    border: none;
+    padding: 6px;
+    border-radius: 20px;
+    cursor: pointer;
+    color:#00000079;
+}
+
+.cont-ver-productos{
+    margin: 5%;
+} 
 
 
 /* Menú lateral */
@@ -122,6 +140,16 @@ h2{
     cursor: pointer;
 }
 
+.bienvenida{
+    justify-items: center;
+}
+
+.bienvenida h2 {
+    box-shadow: 0 0 2px #555555;
+    font-style: italic;
+    font-size: 45px;
+}
+
 /* Tarjetas de productos*/
 .productos-inicio {
     width: 100%;
@@ -138,6 +166,7 @@ h2{
     margin-top: 30px;
     border-radius: 15px;
     box-shadow: 0 0 10px #777777;
+    margin-bottom: 20px;
 }
 
 
@@ -291,11 +320,13 @@ h2{
 .precio2 {
     font-size: 25px;
     margin: 0;
+    color: #000000;
     
 }
 
 .precio1{
     margin: 5px;
+    color: #333333a6;
 }
 
 
@@ -308,4 +339,20 @@ h2{
     border-radius: 50px 50px 50px 50px;
     cursor: pointer;
     color:#00000079;
+}
+
+.contenedor-pasos{
+    width: 100%;
+   }
+   
+
+.contenedor-pasos img{
+    width: 100%;
+    min-width: 300px;
+    max-width: 600px;
+}
+
+
+.contenedor-pasos .pasonum{
+    font-size: 20px;
 }
